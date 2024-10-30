@@ -27,3 +27,13 @@ model_path = h2o.save_model(model=aml.leader, path="/models/", force=True)
 
 leaderboard = aml.leaderboard
 print(leaderboard)
+
+
+# To predict run the following code with your mushroom information in a file called test.csv:
+#test_data = h2o.import_file('/test.csv')
+#predictions = aml.leader.predict(test_data)
+#predictions_df = h2o.as_list(predictions)
+#predictions_df.head()
+#predictions.to_csv('predictions.csv', index=False)
+
+
