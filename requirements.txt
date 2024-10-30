@@ -1,0 +1,4 @@
+skit-learn
+numpy
+pandas
+h2o
